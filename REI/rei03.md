@@ -2,7 +2,7 @@
 
 ## Modelo E/A
 
-[Diagrama](filess/modeloearei.pdf)   
+[Diagrama](files/modeloearei.jpeg)   
 
 ### Entidades-Tipo:
 SALA(numero, numMaximo, preco, estado)
