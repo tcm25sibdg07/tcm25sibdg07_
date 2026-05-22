@@ -6,7 +6,7 @@ com base nas regras estudadas. Após criar os modelos entidades-tipo e estabelec
 as respetivas associações presentes abaixo:
 
 
-Entidades-Tipo:
+### Entidades-Tipo:
 
 SALA(número, numMaximo, preco, estado)
 
@@ -19,7 +19,7 @@ ARTISTA(número, nome, tipo, {contacto}, email)
 TECNICO(número, nome, {contacto})
 
 
-Associações:
+### Associações:
 
 contém(SALA, EQUIPAMENTO) M:N - PARCIAL/TOTAL
 
@@ -35,7 +35,7 @@ seus atributos e identificadores e dando origem às respectivas tabelas no model
 relacional.
 
 
-● Passo 1: Associações 1:1
+### ● Passo 1: Associações 1:1
 
 associado(TECNICO, SALA) 1:1 - TOTAL/TOTAL
 
@@ -52,7 +52,7 @@ Chave própria: número;
 Chave estrangeira: número_sala;
 
 
-● Passo 2: Associações 1:N
+### ● Passo 2: Associações 1:N
 
 adquire(RESERVA, SALA) - N:1 - TOTAL/PARCIAL
 
@@ -75,7 +75,7 @@ Chave própria: id_reserva;
 Chaves estrangeiras: número_sala + número_artista;
 
 
-● Passo 3: Associações N:M
+### ● Passo 3: Associações N:M
 
 contém(SALA, EQUIPAMENTO) M:N - PARCIAL/TOTAL
 
@@ -91,7 +91,7 @@ PARTICIPA EM(número_sala, identificador_equipamento)
 Chaves próprias: número_sala + identificador_equipamento;
 
 
-● Passo 4: Atributos multivalor
+### ● Passo 4: Atributos multivalor
 
 A regra diz que para cada atributo multivalor CONTACTO, cria-se uma nova relação
 que:
