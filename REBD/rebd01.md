@@ -38,7 +38,7 @@ dos equipamentos e auxiliando os artistas durante o processo. Assume-se que cada
 sala tem exatamente um técnico responsável, e cada técnico está associado a
 apenas uma sala.
 
-Pressupostos:
+### Pressupostos:
 Para a entidade RESERVA, foi introduzido o atributo id_reserva, de forma a garantir
 a identificação única de cada reserva.
 Para a entidade ARTISTA, foi assumido um atributo número como identificador
@@ -46,7 +46,7 @@ Para a entidade ARTISTA, foi assumido um atributo número como identificador
 nome.
 
 ## Descrição dos requisitos do utilizador
-Entidades-Tipo:
+### Entidades-Tipo:
 
 SALA(número, numMaximo, preco, estado)
 
@@ -59,7 +59,7 @@ ARTISTA(número, nome, tipo, {contacto}, email)
 TECNICO(número, nome, {contacto})
 
 
-Associações:
+### Associações:
 
 contém(SALA, EQUIPAMENTO) M:N - PARCIAL/TOTAL
 
