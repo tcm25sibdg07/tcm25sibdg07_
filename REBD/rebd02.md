@@ -29,7 +29,7 @@ Um equipamento apenas pode ser associado a salas quando o seu estado for
 
 O identificador do equipamento deve ser único.
 
-# Pessoal
+### Pessoal
 
 O número de contacto do técnico e do artista deve respeitar um formato válido e
 conter apenas dígitos válidos.
@@ -40,7 +40,7 @@ conflitos de utilização.
 Um técnico não pode estar associado a duas reservas que ocorram
 simultaneamente.
 
-# Reserva
+### Reserva
 
 Uma reserva deve possuir obrigatoriamente um estado válido (por exemplo: “ativa”,
 “cancelada”, “concluída”).
