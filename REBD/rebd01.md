@@ -38,16 +38,6 @@ dos equipamentos e auxiliando os artistas durante o processo. Assume-se que cada
 sala tem exatamente um técnico responsável, e cada técnico está associado a
 apenas uma sala.
 
-
-## Modelação do problema
-
-Entidades-Tipo:
-SALA(número, numMaximo, preco, estado)
-EQUIPAMENTO(identificador, nome, numero)
-RESERVA(id_ reserva, data, horaInicio, horaFim, estado)
-ARTISTA(número, nome, tipo, {contacto}, email)
-TECNICO(número, nome, {contacto})
-
 Pressupostos:
 Para a entidade RESERVA, foi introduzido o atributo id_reserva, de forma a garantir
 a identificação única de cada reserva.
@@ -55,10 +45,28 @@ Para a entidade ARTISTA, foi assumido um atributo número como identificador
 único, permitindo distinguir diferentes artistas, mesmo quando possuem o mesmo
 nome.
 
+## Descrição dos requisitos do utilizador
+Entidades-Tipo:
+
+SALA(número, numMaximo, preco, estado)
+
+EQUIPAMENTO(identificador, nome, numero)
+
+RESERVA(id_ reserva, data, horaInicio, horaFim, estado)
+
+ARTISTA(número, nome, tipo, {contacto}, email)
+
+TECNICO(número, nome, {contacto})
+
+
 Associações:
+
 contém(SALA, EQUIPAMENTO) M:N - PARCIAL/TOTAL
+
 adquire(RESERVA, SALA) - N:1 - TOTAL/PARCIAL
+
 feitaPor(RESERVA, ARTISTA) N:1 - TOTAL/PARCIAL
+
 associado(TECNICO, SALA) 1:1 - TOTAL/TOTAL
 
 ---
