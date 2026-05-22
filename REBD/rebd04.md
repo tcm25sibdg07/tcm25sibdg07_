@@ -6,9 +6,7 @@
 
 ```sql
 CREATE view `salas_livres` AS
-
 SELECT * FROM sala
-
 WHERE estado='Livre';
 ```
 ---
