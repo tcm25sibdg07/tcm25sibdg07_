@@ -1,7 +1,7 @@
 # C2 : Esquema conceptual
 
 ## Modelo E/A
-[Diagrama](REBD/modeloea.pdf)
+[Diagrama](files/modeloea.pdf)
 
 ## Regras de negócio adicionais (Restrições)
 ### Sala
