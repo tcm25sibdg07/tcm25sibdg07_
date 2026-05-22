@@ -74,7 +74,7 @@ values ('D035097', 'Jorge', 203),
 ('D037261', 'Jose', 205),
 ('D037803', 'Mario', 207);
 ```
-[Pedidos](pedidos.pdf)
+[Pedidos](files/pedidos.pdf)
 
 ---
 [< Previous](rebd04.md) | [^ Main](/../../) | Next >
