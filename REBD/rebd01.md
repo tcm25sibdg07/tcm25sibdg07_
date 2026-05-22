@@ -70,5 +70,5 @@ feitaPor(RESERVA, ARTISTA) N:1 - TOTAL/PARCIAL
 associado(TECNICO, SALA) 1:1 - TOTAL/TOTAL
 
 ---
-[< Previous](rei00.md) | [^ Main](/../../) | [Next >](rei02.md)
+[< Previous](rebd00.md) | [^ Main](/../../) | [Next >](rebd02.md)
 :--- | :---: | ---: 
