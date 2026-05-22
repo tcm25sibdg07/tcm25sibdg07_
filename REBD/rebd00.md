@@ -10,8 +10,8 @@
 
 ## Group _07_
 * [Hossana van-Dúnem](https://github.com/hossanavandunem16-tech)
-* [Kativania Gomes](https://github.com/a048119)
-* [Marta Gomes](https://github.com/a047344)
+* [Kativania Gomes](https://github.com/KativaniaGomes)
+* [Marta Gomes](https://github.com/a047233)
 
 
 ---
