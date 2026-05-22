@@ -1,6 +1,6 @@
 # C4 : Esquema Relacional
 
-[Tabelas](tabelas.pdf)
+[Tabelas](files/tabelas.pdf)
 
 ## Vistas
 
